@@ -2,7 +2,7 @@ def can_vote(age, citizen, criminal_record):
     if age >= 18 and citizen and not criminal_record:
         print("Вы можете голосовать!")
     else:
-        print("Вы можете голосовать!")
+        print("Вы не можете голосовать!")
 
 def get_age():
     while True:
